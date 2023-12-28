@@ -15,7 +15,7 @@ export interface IEvent extends Document {
     category: { _id: string, name: string };
     organizer:  { _id: string, firstName: string, lastName: string };
 }
-
+//category and organizer are related to another category type.
 const EventSchema = new Schema({
     title: { type: String, required: true },
     description: { type: String },
