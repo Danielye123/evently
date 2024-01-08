@@ -27,7 +27,6 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { useUploadThing } from '@/lib/uploadthing';
 
 import "react-datepicker/dist/react-datepicker.css";
-import { Router } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { createEvent } from "@/lib/actions/event.actions";
 
